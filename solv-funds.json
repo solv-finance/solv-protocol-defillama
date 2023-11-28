@@ -18,10 +18,10 @@
     "mantle": {
         "klp": {
             "address": "0xb3a5eeBf23530165c3A6785400ff5d1700D5c0b3",
-            "klpManager": [
-                "0x3C4DE8fB37055500BB3D18eAE8dD0DffF527090e"
-            ],
-            "klpPool": "0xf9ddb49175037b4fd2580fc825b40707d4781531"
+            "klpManager": "0x3C4DE8fB37055500BB3D18eAE8dD0DffF527090e",
+            "klpPool": [
+                "0xf9ddb49175037b4fd2580fc825b40707d4781531"
+            ]
         }
     }
 }
