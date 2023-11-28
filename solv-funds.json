@@ -1,0 +1,27 @@
+{
+    "arbitrum": {
+        "gm": {
+            "depositAddress": [
+                "0x9f6478a876d7765f44bda712573820eb3ae389fb",
+                "0xcac14cd2f18dcf54032bd51d0a116fe18770b87c"
+            ],
+            "gmTokens": [
+                "0x70d95587d40a2caf56bd97485ab3eec10bee6336",
+                "0x47c031236e19d024b42f8AE6780E44A573170703",
+                "0xC25cEf6061Cf5dE5eb761b50E4743c1F5D7E5407",
+                "0x7f1fa204bb700853D36994DA19F830b6Ad18455C",
+                "0x09400D9DB990D5ed3f35D7be61DfAEB900Af03C9",
+                "0xc7Abb2C5f3BF3CEB389dF0Eecd6120D451170B50"
+            ]
+        }
+    },
+    "mantle": {
+        "klp": {
+            "address": [
+                "0xb3a5eeBf23530165c3A6785400ff5d1700D5c0b3"
+            ],
+            "klpManager": "0x3C4DE8fB37055500BB3D18eAE8dD0DffF527090e",
+            "klpPool": "0xf9ddb49175037b4fd2580fc825b40707d4781531"
+        }
+    }
+}
