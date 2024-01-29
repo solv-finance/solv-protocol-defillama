@@ -28,6 +28,13 @@
             "owner": [
                 "0x464caf431655f409536a13cbb18355c49e5d6d17"
             ]
+        },
+        "lendle": {
+            "aToken": "0x0e927aa52a38783c1fd5dfa5c8873cbdbd01d2ca",
+            "account": {
+                "user": "0x1df764dae64019414759a237a6725431ff73aa8f",
+                "ethAddress": "0xcda86a272531e8640cd7f1a92c01839911b90bb0"
+            }
         }
     }
 }
