@@ -17,7 +17,7 @@
         "mux": {
             "account": "0x0d37f425cd5df98c5cde47f13a18b6c7f23e2ea2",
             "pool": "0xaf9c4f6a0ceb02d4217ff73f3c95bbc8c7320cee",
-            "lp": "0x7CbaF5a14D953fF896E5B3312031515c858737C8",
+            "lp": "0x7CbaF5a14D953fF896E5B3312031515c858737C8"
         }
     },
     "mantle": {
