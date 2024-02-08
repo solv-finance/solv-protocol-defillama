@@ -13,6 +13,11 @@
                 "0x09400D9DB990D5ed3f35D7be61DfAEB900Af03C9",
                 "0xc7Abb2C5f3BF3CEB389dF0Eecd6120D451170B50"
             ]
+        },
+        "mux": {
+            "account": "0x0d37f425cd5df98c5cde47f13a18b6c7f23e2ea2",
+            "pool": "0xaf9c4f6a0ceb02d4217ff73f3c95bbc8c7320cee",
+            "lp": "0x7CbaF5a14D953fF896E5B3312031515c858737C8",
         }
     },
     "mantle": {
