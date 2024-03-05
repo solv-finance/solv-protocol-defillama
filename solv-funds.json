@@ -3,7 +3,8 @@
         "gm": {
             "depositAddress": [
                 "0x9f6478a876d7765f44bda712573820eb3ae389fb",
-                "0xcac14cd2f18dcf54032bd51d0a116fe18770b87c"
+                "0xcac14cd2f18dcf54032bd51d0a116fe18770b87c",
+                "0xABdEa2B57ebc423061451d384C2C3E0c21358a87"
             ],
             "gmTokens": [
                 "0x70d95587d40a2caf56bd97485ab3eec10bee6336",
