@@ -19,7 +19,12 @@
             "account": "0x0d37f425cd5df98c5cde47f13a18b6c7f23e2ea2",
             "pool": "0xaf9c4f6a0ceb02d4217ff73f3c95bbc8c7320cee",
             "lp": "0x7CbaF5a14D953fF896E5B3312031515c858737C8"
-        }
+        },
+        "fofFund": [
+            "0x40af4718ddd88d18c549a7b3bac3ccb515a2bbeccf68f6f14b586d501a4aa94d",
+            "0x2f5468dc9d7578db8a70b3152ba912fad1f8db58c0341107551f1978789e10b1",
+            "0x488def4a346b409d5d57985a160cd216d29d4f555e1b716df4e04e2374d2d9f6"
+        ]
     },
     "mantle": {
         "klp": {
@@ -41,6 +46,27 @@
                 "user": "0x1df764dae64019414759a237a6725431ff73aa8f",
                 "ethAddress": "0xcda86a272531e8640cd7f1a92c01839911b90bb0"
             }
-        }
+        },
+        "fofFund": [
+            "0x430c7e0c4cc5669eb1c0365bd985324242dbe2622a1c78fd8dcec855fc7096bc"
+        ]
+    },
+    "ethereum": {
+        "fofFund": [
+            "0x0ee45ac6aec02c76f9e7e20acb021d72efcf5d71bb125914c78bfc84433aca97",
+            "0x08d974cde2d11045721b60c22fa8ec6f904b3fcd7e2127b5abb9ceb884e0087c"
+        ]
+    },
+    "bsc": {
+        "fofFund": [
+            "0x8fc39cd137d7946ba4f529587d996d9445edbac4f1cd8054692ce395de553529",
+            "0x2fb7342900a71d24a5e1ef83f43d0d8d3fd2f2009ccf3507eee0f6d1a7a534bf",
+            "0xafb1107b43875eb79f72e3e896933d4f96707451c3d5c32741e8e05410b321d8"
+        ]
+    },
+    "merlin": {
+        "fofFund": [
+            "0xdb76947333de76435723149d54aefc7c0eeea3c2ca8b763b315f4298aef33c37"
+        ]
     }
 }
