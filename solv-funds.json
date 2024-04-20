@@ -58,6 +58,15 @@
         ]
     },
     "bsc": {
+        "otherDeposit": {
+            "depositAddress": [
+                "0x944afe3DF47a8c84d6Bfd6dE09E4BedED7b01CAC",
+                "0xcA27Fc72bcEAcAB6d4683a3C60e8c8E3C79EA140"
+            ],
+            "tokens": [
+                "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
+            ]
+        },
         "fofFund": [
             "0x8fc39cd137d7946ba4f529587d996d9445edbac4f1cd8054692ce395de553529",
             "0x2fb7342900a71d24a5e1ef83f43d0d8d3fd2f2009ccf3507eee0f6d1a7a534bf",
