@@ -2,7 +2,7 @@
     "arbitrum": {
         "gm": {
             "depositAddress": [
-                "0xcac14cd2f18dcf54032bd51d0a116fe18770b87c",
+                "0xcac14cd2f18dcf54032bd51d0a116fe18770b87c"
             ],
             "gmTokens": [
                 "0x70d95587d40a2caf56bd97485ab3eec10bee6336",
