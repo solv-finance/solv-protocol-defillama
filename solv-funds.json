@@ -51,6 +51,15 @@
         ]
     },
     "ethereum": {
+        "otherDeposit": {
+            "depositAddress": [
+                "0x464D0cCff5E05F2aFC69561Fd849e46d96492203",
+                "0x94D9962C3942e7140D90449B6Cb92064AAf20595"
+            ],
+            "tokens": [
+                "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3"
+            ]
+        },
         "fofFund": [
             "0x0ee45ac6aec02c76f9e7e20acb021d72efcf5d71bb125914c78bfc84433aca97",
             "0x08d974cde2d11045721b60c22fa8ec6f904b3fcd7e2127b5abb9ceb884e0087c"
