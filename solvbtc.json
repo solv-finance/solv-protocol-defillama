@@ -1,41 +1,58 @@
 {
-    "arbitrum": {
-        "gm": {
-            "depositAddress": [
-                "0xcac14cd2f18dcf54032bd51d0a116fe18770b87c"
-            ],
-            "gmTokens": [
-                "0x70d95587d40a2caf56bd97485ab3eec10bee6336",
-                "0x47c031236e19d024b42f8AE6780E44A573170703",
-                "0xC25cEf6061Cf5dE5eb761b50E4743c1F5D7E5407",
-                "0x7f1fa204bb700853D36994DA19F830b6Ad18455C",
-                "0x09400D9DB990D5ed3f35D7be61DfAEB900Af03C9",
-                "0xc7Abb2C5f3BF3CEB389dF0Eecd6120D451170B50"
-            ]
-        },
-        "slot": [
-            "18834720600760682316079182603327587109774167238702271733823387280510631407444",
-            "39475026322910990648776764986670533412889479187054865546374468496663502783148"
-        ]
-    },
-    "bsc": {
-        "otherDeposit": {
-            "depositAddress": [
-                "0xb37Cf50f279a5f6C63CC33f447679E600D03394f",
-                "0x82dd772B44c6Aa4A4a92FA0C965F590013cDA95A",
-                "0x51c2ba3c5e8a90E7c27Fa9eC8b287454EB698EAd"
-            ],
-            "tokens": [
-                "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
-            ]
-        },
-        "slot": [
-            "77587025559498258415588945116212333974103493585554356315875771683147378204475"
-        ]
-    },
-    "merlin": {
-        "slot": [
-            "7685891756137981582934663773270438191467779655160310556659968321974138778374"
-        ]
-    }
+	"ethereum": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x51c2ba3c5e8a90E7c27Fa9eC8b287454EB698EAd",
+				"0xBE6297731720B7E218031Ca8970921f9b41f3D00"
+			],
+			"tokens": [
+				"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+				"0xC96dE26018A54D51c097160568752c4E3BD6C364"
+			]
+		}
+	},
+	"arbitrum": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x032470aBBb896b1255299d5165c1a5e9ef26bcD2"
+			],
+			"tokens": [
+				"0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
+			]
+		}
+	},
+	"bsc": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0xb37Cf50f279a5f6C63CC33f447679E600D03394f",
+				"0x82dd772B44c6Aa4A4a92FA0C965F590013cDA95A",
+				"0x51c2ba3c5e8a90E7c27Fa9eC8b287454EB698EAd",
+				"0x9537Bc0546506785bD1eBd19fD67d1F06800D185",
+				"0xb37cf50f279a5f6c63cc33f447679e600d03394f"
+			],
+			"tokens": [
+				"0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
+			]
+		}
+	},
+	"merlin": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x6A57a8D6C4fe64B1FD6E8c3E07b0591d22B7ce7f"
+			],
+			"tokens": [
+				"0xB880fd278198bd590252621d4CD071b1842E9Bcd"
+			]
+		}
+	},
+	"mantle": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x33b7a7a164b77433a61d4b49bd780a2718812e6e"
+			],
+			"tokens": [
+				"0xC96dE26018A54D51c097160568752c4E3BD6C364"
+			]
+		}
+	}
 }
