@@ -1,0 +1,10 @@
+{
+	"ethereum": {
+		"prototalFees": [{
+			"address": "0xbBf0A02ae7f17d19cB3E3766633e7Ca33aB3b5d5",
+			"tokens": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3"],
+			"deployedAt": 1718236800
+		}],
+		"poolFees": ["0xefcca1eb946cdc7b56509489a56b45b75aff74b8bb84dad5b893012157e0df93"]
+	}
+}
