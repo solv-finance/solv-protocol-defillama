@@ -4,15 +4,9 @@
 			"address": ["0xbBf0A02ae7f17d19cB3E3766633e7Ca33aB3b5d5"],
 			"token": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0x57e114B691Db790C35207b2e685D4A43181e6061"],
 			"deployedAt": 1718236800
-		},
-		"poolFees": []
+		}
 	},
 	"arbitrum": {
-		"protocolFees": {
-			"address": [],
-			"token": [],
-			"deployedAt": 1718236800
-		},
 		"poolFees": [
 			"0xe037ef7b5f74bf3c988d8ae8ab06ad34643749ba9d217092297241420d600fce",
 			"0x9119ceb6bcf974578e868ab65ae20c0d546716a6657eb27dc3a6bf113f0b519c",
@@ -25,11 +19,6 @@
 		]
 	},
 	"mantle": {
-		"protocolFees": {
-			"address": [],
-			"token": [],
-			"deployedAt": 1718236800
-		},
 		"poolFees": [
 			"0xf514bf1cefa177ea26156b1d0d0da28da8f88b5eb8ed673ddd2cea5334bb6d6c",
 			"0xc287a2349f1891ec04b7f0b613726b6d4601c7d2750a101c6ca3fc4bddf47653",
