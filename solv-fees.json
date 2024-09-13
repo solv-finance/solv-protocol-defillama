@@ -5,6 +5,35 @@
 			"token": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0x57e114B691Db790C35207b2e685D4A43181e6061"],
 			"deployedAt": 1718236800
 		},
-		"poolFees": ["0xefcca1eb946cdc7b56509489a56b45b75aff74b8bb84dad5b893012157e0df93"]
+		"poolFees": []
+	},
+	"arbitrum": {
+		"protocolFees": {
+			"address": [],
+			"token": [],
+			"deployedAt": 1718236800
+		},
+		"poolFees": [
+			"0xe037ef7b5f74bf3c988d8ae8ab06ad34643749ba9d217092297241420d600fce",
+			"0x9119ceb6bcf974578e868ab65ae20c0d546716a6657eb27dc3a6bf113f0b519c",
+			"0x392c65b44c03fee27826b645ebc00f3cfd114dc7086523523233766ce0cbd4cf",
+			"0xc71ee4ace4d770871f1ead92c5fb5e39ea888e8660a8bd27ed3f9423140e6576",
+			"0xe2d154c8cd3f45e2a22572fad8301b195755cf9af10d579e04e90f719206fad0",
+			"0x504d291d2f4dedf8fa3ac3a342ff3531b8947fa835077c8312fa18da2be4084c",
+			"0x3b2232fb5309e89e5ee6e2ca6066bcc28ee365045e9a565040bf8c846b87477e",
+			"0x0ef01fb59f931e3a3629255b04ce29f6cd428f674944789288a1264a79c7c931"
+		]
+	},
+	"mantle": {
+		"protocolFees": {
+			"address": [],
+			"token": [],
+			"deployedAt": 1718236800
+		},
+		"poolFees": [
+			"0xf514bf1cefa177ea26156b1d0d0da28da8f88b5eb8ed673ddd2cea5334bb6d6c",
+			"0xc287a2349f1891ec04b7f0b613726b6d4601c7d2750a101c6ca3fc4bddf47653",
+			"0x8aeda782c271f9d79110d12410640a393c5ad1fdd6f3812208c0052637eea338"
+		]
 	}
 }
