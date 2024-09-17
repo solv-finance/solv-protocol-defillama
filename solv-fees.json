@@ -6,6 +6,12 @@
 			"deployedAt": 1718236800
 		}
 	},
+	"bsc": {
+		"poolFees": [
+			"0x636021e98becf5978f273aa03a0980a8e887628e0ad7daaec73456f97b4ed903",
+			"0xacf3012a569015b5c3f8be885a45582313603f065f8086fbd64694fe2f919834"
+		]
+	},
 	"arbitrum": {
 		"poolFees": [
 			"0xe037ef7b5f74bf3c988d8ae8ab06ad34643749ba9d217092297241420d600fce",
