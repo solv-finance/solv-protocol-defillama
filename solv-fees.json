@@ -2,7 +2,7 @@
 	"ethereum": {
 		"protocolFees": {
 			"address": ["0xbBf0A02ae7f17d19cB3E3766633e7Ca33aB3b5d5"],
-			"token": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0x57e114B691Db790C35207b2e685D4A43181e6061"],
+			"token": ["0x4c9edd5852cd905f086c759e8383e09bff1e68b3", "0x57e114B691Db790C35207b2e685D4A43181e6061", "0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9"],
 			"deployedAt": 1718236800
 		}
 	},
