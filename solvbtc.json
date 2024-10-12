@@ -55,5 +55,25 @@
 				"0xC96dE26018A54D51c097160568752c4E3BD6C364"
 			]
 		}
+	},
+	"avax": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x33b7a7a164b77433a61d4b49bd780a2718812e6e"
+			],
+			"tokens": [
+				"0x152b9d0FdC40C096757F570A51E494bd4b943E50"
+			]
+		}
+	},
+	"bob": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x33b7a7a164b77433a61d4b49bd780a2718812e6e"
+			],
+			"tokens": [
+				"0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3"
+			]
+		}
 	}
 }
