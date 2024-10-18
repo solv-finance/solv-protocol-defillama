@@ -90,5 +90,15 @@
 				"0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3"
 			]
 		}
+	},
+	"base": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0xcdaaaa09e6e0de3e7171259cf6962e4d44f983f9"
+			],
+			"tokens": [
+				"0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+			]
+		}
 	}
 }
