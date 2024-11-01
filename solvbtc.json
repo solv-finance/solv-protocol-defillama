@@ -91,10 +91,12 @@
 	"base": {
 		"otherDeposit": {
 			"depositAddress": [
-				"0xcdaaaa09e6e0de3e7171259cf6962e4d44f983f9"
+				"0xcdaaaa09e6e0de3e7171259cf6962e4d44f983f9",
+				"0xF2416C264Aa4068fF4D1949383366458F295F205"
 			],
 			"tokens": [
-				"0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+				"0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+				"0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
 			]
 		}
 	}
