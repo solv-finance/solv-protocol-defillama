@@ -1,4 +1,12 @@
 {
 	"ethereum": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x32611194b98b7ef451edf2a8bb0a11475ca8c287"
+			],
+			"tokens": [
+				"0xEb28877D7e3DbA5bcd4D0a1474C31F8AFb2d6052"
+			]
+		}
 	}
 }
