@@ -14,7 +14,8 @@
 	},
 	"bsc": {
 		"poolFees": [
-			"0x636021e98becf5978f273aa03a0980a8e887628e0ad7daaec73456f97b4ed903"
+			"0x636021e98becf5978f273aa03a0980a8e887628e0ad7daaec73456f97b4ed903",
+			"0x08fc00105d8daadd85946ab00e1d3e2f20b04008a00fbe6e0fac7c956cd5846f"
 		]
 	},
 	"arbitrum": {
