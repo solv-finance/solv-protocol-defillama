@@ -70,7 +70,11 @@
             "0x8fc39cd137d7946ba4f529587d996d9445edbac4f1cd8054692ce395de553529",
             "0x2fb7342900a71d24a5e1ef83f43d0d8d3fd2f2009ccf3507eee0f6d1a7a534bf",
             "0xafb1107b43875eb79f72e3e896933d4f96707451c3d5c32741e8e05410b321d8"
-        ]
+        ],
+        "defiVault": {
+            "defiVault": "0x647A50540F5a1058B206f5a3eB17f56f29127F53",
+            "poolId": "0x34bba90734634811d28d6c33eaad61f93686793ddf442190573619e9476c8925"
+        }
     },
     "merlin": {
         "fofFund": [
