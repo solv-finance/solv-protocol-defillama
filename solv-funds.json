@@ -1,89 +1,91 @@
 {
-    "arbitrum": {
-        "gm": {
-            "depositAddress": [
-                "0x9f6478a876d7765f44bda712573820eb3ae389fb",
-                "0xABdEa2B57ebc423061451d384C2C3E0c21358a87"
-            ],
-            "gmTokens": [
-                "0x70d95587d40a2caf56bd97485ab3eec10bee6336",
-                "0x47c031236e19d024b42f8AE6780E44A573170703",
-                "0xC25cEf6061Cf5dE5eb761b50E4743c1F5D7E5407",
-                "0x7f1fa204bb700853D36994DA19F830b6Ad18455C",
-                "0x09400D9DB990D5ed3f35D7be61DfAEB900Af03C9",
-                "0xc7Abb2C5f3BF3CEB389dF0Eecd6120D451170B50"
-            ]
-        },
-        "mux": {
-            "account": "0x0d37f425cd5df98c5cde47f13a18b6c7f23e2ea2",
-            "pool": "0xaf9c4f6a0ceb02d4217ff73f3c95bbc8c7320cee",
-            "lp": "0x7CbaF5a14D953fF896E5B3312031515c858737C8"
-        },
-        "fofFund": [
-            "0x40af4718ddd88d18c549a7b3bac3ccb515a2bbeccf68f6f14b586d501a4aa94d",
-            "0x2f5468dc9d7578db8a70b3152ba912fad1f8db58c0341107551f1978789e10b1",
-            "0x488def4a346b409d5d57985a160cd216d29d4f555e1b716df4e04e2374d2d9f6"
-        ]
-    },
-    "mantle": {
-        "klp": {
-            "address": "0xb3a5eeBf23530165c3A6785400ff5d1700D5c0b3",
-            "klpManager": "0x3C4DE8fB37055500BB3D18eAE8dD0DffF527090e",
-            "klpPool": [
-                "0xf9ddb49175037b4fd2580fc825b40707d4781531"
-            ]
-        },
-        "iziswap": {
-            "liquidityManager": "0x611575eE1fbd4F7915D0eABCC518eD396fF78F0c",
-            "owner": [
-                "0x464caf431655f409536a13cbb18355c49e5d6d17"
-            ]
-        },
-        "lendle": {
-            "aToken": "0x0e927aa52a38783c1fd5dfa5c8873cbdbd01d2ca",
-            "account": {
-                "user": "0x1df764dae64019414759a237a6725431ff73aa8f",
-                "ethAddress": "0xcda86a272531e8640cd7f1a92c01839911b90bb0"
-            }
-        },
-        "fofFund": [
-            "0x430c7e0c4cc5669eb1c0365bd985324242dbe2622a1c78fd8dcec855fc7096bc"
-        ]
-    },
-    "ethereum": {
-        "otherDeposit": {
-            "depositAddress": [
-                "0x464D0cCff5E05F2aFC69561Fd849e46d96492203",
-                "0x94D9962C3942e7140D90449B6Cb92064AAf20595"
-            ],
-            "tokens": [
-                "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3"
-            ]
-        },
-        "fofFund": [
-            "0x0ee45ac6aec02c76f9e7e20acb021d72efcf5d71bb125914c78bfc84433aca97",
-            "0x08d974cde2d11045721b60c22fa8ec6f904b3fcd7e2127b5abb9ceb884e0087c"
-        ]
-    },
-    "bsc": {
-        "fofFund": [
-            "0x8fc39cd137d7946ba4f529587d996d9445edbac4f1cd8054692ce395de553529",
-            "0x2fb7342900a71d24a5e1ef83f43d0d8d3fd2f2009ccf3507eee0f6d1a7a534bf",
-            "0xafb1107b43875eb79f72e3e896933d4f96707451c3d5c32741e8e05410b321d8"
-        ],
-        "pancakeV3Positions": {
-        	"vaults": [
-        	  ["0x46a15b0b27311cedf172ab29e4f4766fbe7f4364", "0xb4378d4e3528c12c83821b21c99b43336a543613"]
-        	]
-        },
-        "avalon": {
-            "solvBTCAddress": "0x4aae823a6a0b376de6a78e74ecc5b079d38cbcf7",
-            "avalonAddress": [["0x516490f83f7587fc74c02bf0a0d06547f8edb0ab", "0xb4378d4e3528c12c83821b21c99b43336a543613"]]
-        }
-    },
-    "merlin": {
-        "fofFund": [
-            "0xdb76947333de76435723149d54aefc7c0eeea3c2ca8b763b315f4298aef33c37"
-        ]
-    }
+	"arbitrum": {
+		"gm": {
+			"depositAddress": [
+				"0x9f6478a876d7765f44bda712573820eb3ae389fb",
+				"0xABdEa2B57ebc423061451d384C2C3E0c21358a87"
+			],
+			"gmTokens": [
+				"0x70d95587d40a2caf56bd97485ab3eec10bee6336",
+				"0x47c031236e19d024b42f8AE6780E44A573170703",
+				"0xC25cEf6061Cf5dE5eb761b50E4743c1F5D7E5407",
+				"0x7f1fa204bb700853D36994DA19F830b6Ad18455C",
+				"0x09400D9DB990D5ed3f35D7be61DfAEB900Af03C9",
+				"0xc7Abb2C5f3BF3CEB389dF0Eecd6120D451170B50"
+			]
+		},
+		"mux": {
+			"account": "0x0d37f425cd5df98c5cde47f13a18b6c7f23e2ea2",
+			"pool": "0xaf9c4f6a0ceb02d4217ff73f3c95bbc8c7320cee",
+			"lp": "0x7CbaF5a14D953fF896E5B3312031515c858737C8"
+		},
+		"fofFund": [
+			"0x40af4718ddd88d18c549a7b3bac3ccb515a2bbeccf68f6f14b586d501a4aa94d",
+			"0x2f5468dc9d7578db8a70b3152ba912fad1f8db58c0341107551f1978789e10b1",
+			"0x488def4a346b409d5d57985a160cd216d29d4f555e1b716df4e04e2374d2d9f6"
+		]
+	},
+	"mantle": {
+		"klp": {
+			"address": "0xb3a5eeBf23530165c3A6785400ff5d1700D5c0b3",
+			"klpManager": "0x3C4DE8fB37055500BB3D18eAE8dD0DffF527090e",
+			"klpPool": [
+				"0xf9ddb49175037b4fd2580fc825b40707d4781531"
+			]
+		},
+		"iziswap": {
+			"liquidityManager": "0x611575eE1fbd4F7915D0eABCC518eD396fF78F0c",
+			"owner": [
+				"0x464caf431655f409536a13cbb18355c49e5d6d17"
+			]
+		},
+		"lendle": {
+			"aToken": "0x0e927aa52a38783c1fd5dfa5c8873cbdbd01d2ca",
+			"account": {
+				"user": "0x1df764dae64019414759a237a6725431ff73aa8f",
+				"ethAddress": "0xcda86a272531e8640cd7f1a92c01839911b90bb0"
+			}
+		},
+		"fofFund": [
+			"0x430c7e0c4cc5669eb1c0365bd985324242dbe2622a1c78fd8dcec855fc7096bc"
+		]
+	},
+	"ethereum": {
+		"otherDeposit": {
+			"depositAddress": [
+				"0x464D0cCff5E05F2aFC69561Fd849e46d96492203",
+				"0x94D9962C3942e7140D90449B6Cb92064AAf20595"
+			],
+			"tokens": [
+				"0x4c9EDD5852cd905f086C759E8383e09bff1E68B3"
+			]
+		},
+		"fofFund": [
+			"0x0ee45ac6aec02c76f9e7e20acb021d72efcf5d71bb125914c78bfc84433aca97",
+			"0x08d974cde2d11045721b60c22fa8ec6f904b3fcd7e2127b5abb9ceb884e0087c"
+		]
+	},
+	"bsc": {
+		"fofFund": [
+			"0x8fc39cd137d7946ba4f529587d996d9445edbac4f1cd8054692ce395de553529",
+			"0x2fb7342900a71d24a5e1ef83f43d0d8d3fd2f2009ccf3507eee0f6d1a7a534bf",
+			"0xafb1107b43875eb79f72e3e896933d4f96707451c3d5c32741e8e05410b321d8"
+		],
+		"lpV3Positions": {
+			"lpV3nftsAndOwners": [
+				["0x46a15b0b27311cedf172ab29e4f4766fbe7f4364", "0xb4378d4e3528c12c83821b21c99b43336a543613"]
+			]
+		},
+		"aaves": [{
+			"assetAddress": "0x4aae823a6a0b376de6a78e74ecc5b079d38cbcf7",
+			"aaveAddress": [
+				["0x516490f83f7587fc74c02bf0a0d06547f8edb0ab", "0xb4378d4e3528c12c83821b21c99b43336a543613"]
+			]
+		}]
+	},
+	"merlin": {
+		"fofFund": [
+			"0xdb76947333de76435723149d54aefc7c0eeea3c2ca8b763b315f4298aef33c37"
+		]
+	}
 }
