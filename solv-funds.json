@@ -81,7 +81,14 @@
 			"aaveAddress": [
 				["0x516490f83f7587fc74c02bf0a0d06547f8edb0ab", "0xb4378d4e3528c12c83821b21c99b43336a543613"]
 			]
-		}]
+		}],
+		"lendle": {
+			"aToken": "0xC21A4Ee664F56C6e9d57302e6a060665317cD52d",
+			"account": {
+				"user": "0x04Cf1309ED163CeaF8cEdEd40B5f8429748A1882",
+				"ethAddress": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6"
+			}
+		}
 	},
 	"merlin": {
 		"fofFund": [
