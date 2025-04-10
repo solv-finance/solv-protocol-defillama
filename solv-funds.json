@@ -46,6 +46,13 @@
 				"ethAddress": "0xcda86a272531e8640cd7f1a92c01839911b90bb0"
 			}
 		},
+	      	"derivativeData": {
+	        	"derivativeToken": "0x0e927aa52a38783c1fd5dfa5c8873cbdbd01d2ca",
+	        	"account": {
+	          		"userAddress": "0x1df764dae64019414759a237a6725431ff73aa8f",
+	          		"underlyingToken": "0xcda86a272531e8640cd7f1a92c01839911b90bb0"
+	        	}
+	      	},
 		"fofFund": [
 			"0x430c7e0c4cc5669eb1c0365bd985324242dbe2622a1c78fd8dcec855fc7096bc"
 		]
@@ -88,11 +95,22 @@
 				"user": "0x04Cf1309ED163CeaF8cEdEd40B5f8429748A1882",
 				"ethAddress": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6"
 			}
-		}
+		},
+		"derivativeData": {
+		        "derivativeToken": "0xC21A4Ee664F56C6e9d57302e6a060665317cD52d",
+		        "account": {
+		          	"userAddress": "0x04Cf1309ED163CeaF8cEdEd40B5f8429748A1882",
+		          	"underlyingToken": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6"
+		        }
+	      }
 	},
 	"merlin": {
 		"fofFund": [
 			"0xdb76947333de76435723149d54aefc7c0eeea3c2ca8b763b315f4298aef33c37"
 		]
-	}
+	},
+	"solana": [
+		"9P9MwtNknCNZkWLqgkuofM2b8FEDE8jNJxhnuSkHnhrf",
+		"CmxF3yQgwEXNkgXgCapB6HXmGMGsUyNQsZdAkyKg6CWR"
+	]
 }
