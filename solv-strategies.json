@@ -1,0 +1,28 @@
+{
+    "bsc": [
+        {
+            "erc20": "0x6c948A4C31D013515d871930Fe3807276102F25d",
+            "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+            "poolId": "0x02228958e4f53e94e09cc0afd49939bf93af0b991889fa5fe761672c0e9c3021"
+        }
+    ],
+    "ethereum": [
+        {
+            "erc20": "0x32Bc653dbD08C70f4dDEF2Bab15915193A617D75",
+            "navOracle": "0x8c29858319614380024093dbee553f9337665756",
+            "poolId": "0xa11f08f40185c0ba7ff7f5ea343798a4e2cd0f0d65d47fd5a59ebb51d2d275fa"
+        },
+        {
+            "erc20": "0xE7C253EAD50976Caf7b0C2cbca569146A7741B50",
+            "navOracle": "0x8c29858319614380024093dbee553f9337665756",
+            "poolId": "0xc63f3d6660f19445e108061adf74e0471a51a33dad30fe9b4815140168fd6136"
+        }
+    ],
+    "avax": [
+        {
+            "erc20": "0x6C7d727a0432D03351678F91FAA1126a5B871DF5",
+            "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+            "poolId": "0x83933f7cabce9efa8ed17c7f601dba81cfa49f0dabaf2885bf1624719bf78443"
+        }
+    ]
+}
