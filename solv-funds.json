@@ -71,9 +71,9 @@
 			"0x0ee45ac6aec02c76f9e7e20acb021d72efcf5d71bb125914c78bfc84433aca97",
 			"0x08d974cde2d11045721b60c22fa8ec6f904b3fcd7e2127b5abb9ceb884e0087c"
 		],
-	    "tokenSupply": [
-	    	"0x325DC9EBceC31940C658aCACa45f8293418d811E"
-	    ]
+	    	"tokenSupply": [
+	    		"0x325DC9EBceC31940C658aCACa45f8293418d811E"
+	    	]
 	},
 	"bsc": {
 		"fofFund": [
@@ -105,11 +105,11 @@
 		          	"userAddress": "0x04Cf1309ED163CeaF8cEdEd40B5f8429748A1882",
 		          	"underlyingToken": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6"
 		        }
-	    },
-	    "tokenSupply": [
-	    	"0x38a001e57430f781404ffF7a81DE4Bd67d1f6117",
-	    	"0x53E63a31fD1077f949204b94F431bCaB98F72BCE"
-	    ]
+		},
+		"tokenSupply": [
+			"0x38a001e57430f781404ffF7a81DE4Bd67d1f6117",
+			"0x53E63a31fD1077f949204b94F431bCaB98F72BCE"
+		]
 	},
 	"merlin": {
 		"fofFund": [
@@ -121,8 +121,8 @@
 		"CmxF3yQgwEXNkgXgCapB6HXmGMGsUyNQsZdAkyKg6CWR"
 	],
 	"soneium": {
-	    "tokenSupply": [
-	    	"0xAffEb8576b927050f5a3B6fbA43F360D2883A118"
-	    ]
+	    	"tokenSupply": [
+	    		"0xAffEb8576b927050f5a3B6fbA43F360D2883A118"
+	    	]
 	}
 }
