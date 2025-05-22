@@ -61,16 +61,6 @@
       ]
     }
   },
-  "merlin": {
-    "otherDeposit": {
-      "depositAddress": [
-        "0x6A57a8D6C4fe64B1FD6E8c3E07b0591d22B7ce7f"
-      ],
-      "tokens": [
-        "0xB880fd278198bd590252621d4CD071b1842E9Bcd"
-      ]
-    }
-  },
   "mantle": {
     "otherDeposit": {
       "depositAddress": [
