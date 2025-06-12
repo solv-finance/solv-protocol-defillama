@@ -99,10 +99,16 @@
 			"0x6a57a8d6c4fe64b1fd6e8c3e07b0591d22b7ce7f"
 		]
 	},
-	"solana": [
-		"9P9MwtNknCNZkWLqgkuofM2b8FEDE8jNJxhnuSkHnhrf",
-		"CmxF3yQgwEXNkgXgCapB6HXmGMGsUyNQsZdAkyKg6CWR"
-	],
+	"solana": {
+		"solanaOwners": [
+			"9P9MwtNknCNZkWLqgkuofM2b8FEDE8jNJxhnuSkHnhrf",
+			"CmxF3yQgwEXNkgXgCapB6HXmGMGsUyNQsZdAkyKg6CWR"
+		],
+		"solanaTokens": [
+			"SoLvHDFVstC74Jr9eNLTDoG4goSUsn1RENmjNtFKZvW",
+			"SoLvzL3ZVjofmNB5LYFrf94QtNhMUSea4DawFhnAau8"
+		]
+	},
 	"soneium": {
 	    	"tokenSupply": [
 	    		"0xAffEb8576b927050f5a3B6fbA43F360D2883A118"
