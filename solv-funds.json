@@ -1,19 +1,5 @@
 {
 	"arbitrum": {
-		"gm": {
-			"depositAddress": [
-				"0x9f6478a876d7765f44bda712573820eb3ae389fb",
-				"0xABdEa2B57ebc423061451d384C2C3E0c21358a87"
-			],
-			"gmTokens": [
-				"0x70d95587d40a2caf56bd97485ab3eec10bee6336",
-				"0x47c031236e19d024b42f8AE6780E44A573170703",
-				"0xC25cEf6061Cf5dE5eb761b50E4743c1F5D7E5407",
-				"0x7f1fa204bb700853D36994DA19F830b6Ad18455C",
-				"0x09400D9DB990D5ed3f35D7be61DfAEB900Af03C9",
-				"0xc7Abb2C5f3BF3CEB389dF0Eecd6120D451170B50"
-			]
-		},
 		"mux": {
 			"account": "0x0d37f425cd5df98c5cde47f13a18b6c7f23e2ea2",
 			"pool": "0xaf9c4f6a0ceb02d4217ff73f3c95bbc8c7320cee",
@@ -82,13 +68,6 @@
 				"ethAddress": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6"
 			}
 		},
-		"derivativeData": {
-		        "derivativeToken": "0xC21A4Ee664F56C6e9d57302e6a060665317cD52d",
-		        "account": {
-		          	"userAddress": "0x04Cf1309ED163CeaF8cEdEd40B5f8429748A1882",
-		          	"underlyingToken": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6"
-		        }
-		},
 		"tokenSupply": [
 			"0x38a001e57430f781404ffF7a81DE4Bd67d1f6117",
 			"0x53E63a31fD1077f949204b94F431bCaB98F72BCE"
@@ -97,16 +76,6 @@
 	"merlin": {
 		"blacklistedOwners": [
 			"0x6a57a8d6c4fe64b1fd6e8c3e07b0591d22b7ce7f"
-		]
-	},
-	"solana": {
-		"solanaOwners": [
-			"9P9MwtNknCNZkWLqgkuofM2b8FEDE8jNJxhnuSkHnhrf",
-			"CmxF3yQgwEXNkgXgCapB6HXmGMGsUyNQsZdAkyKg6CWR"
-		],
-		"solanaTokens": [
-			"SoLvHDFVstC74Jr9eNLTDoG4goSUsn1RENmjNtFKZvW",
-			"SoLvzL3ZVjofmNB5LYFrf94QtNhMUSea4DawFhnAau8"
 		]
 	},
 	"soneium": {
