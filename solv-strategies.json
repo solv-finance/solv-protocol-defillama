@@ -53,8 +53,8 @@
 		"routerV2": {
 			"contractAddress": "0x7295de68de27a70dd0d78898967a42b36cedafeb",
 			"fromBlock": 4375297,
-			"currency": "0xCC0966D8418d412c599A6421b760a847eB169A8C",
-			"requester": "0x138CF837b6F7De9073C627732ff90F3346507340"
+			"tokenAddress": "0x1B25cA174c158440621Ff96E4B1262cb5cc8942F",
+			"requester": "0x3b3501f6778Bfc56526cF2aC33b78b2fDBE4bc73"
 		}
 	}
 }
