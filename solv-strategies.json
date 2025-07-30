@@ -1,62 +1,60 @@
 {
-    "bsc": {
-        "solvbtc": "0x4aae823a6a0b376De6A78e74eCC5b079d38cBCf7",
-        "strategies": [
-            {
-                "erc20": "0x6c948A4C31D013515d871930Fe3807276102F25d",
-                "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
-                "poolId": "0x02228958e4f53e94e09cc0afd49939bf93af0b991889fa5fe761672c0e9c3021"
-            },
-            {
-                "erc20": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
-                "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
-                "poolId": "0x0b2bb30466fb1d5b0c664f9a6e4e1a90d5c8bc5abaecd823563641d6fc5ae57a"
-            }
-        ]
-    },
-    "ethereum": {
-        "solvbtc": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
-        "strategies": [
-            {
-                "erc20": "0x32Bc653dbD08C70f4dDEF2Bab15915193A617D75",
-                "navOracle": "0x8c29858319614380024093dbee553f9337665756",
-                "poolId": "0xa11f08f40185c0ba7ff7f5ea343798a4e2cd0f0d65d47fd5a59ebb51d2d275fa"
-            },
-            {
-                "erc20": "0xE7C253EAD50976Caf7b0C2cbca569146A7741B50",
-                "navOracle": "0x8c29858319614380024093dbee553f9337665756",
-                "poolId": "0xc63f3d6660f19445e108061adf74e0471a51a33dad30fe9b4815140168fd6136"
-            }
-        ]
-    },
-    "avax": {
-        "solvbtc": "0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777",
-        "strategies": [
-            {
-                "erc20": "0x6C7d727a0432D03351678F91FAA1126a5B871DF5",
-                "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
-                "poolId": "0x83933f7cabce9efa8ed17c7f601dba81cfa49f0dabaf2885bf1624719bf78443"
-            }
-        ]
-    },
-    "bob": {
-        "solvbtc": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
-        "strategies": [
-            {
-                "erc20": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
-                "navOracle": "0x1210371f2e26a74827f250afdfdbe3091304a3b7",
-                "poolId": "0xdecbbc2d7327df6a7123775568b05eb192cc30c3156fe875698689d70dbc7d2c"
-            }
-        ]
-    },
-    "berachain": {
-        "solvbtc": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
-        "strategies": [
-            {
-                "erc20": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
-                "navOracle": "0x45fb21ac62503c0bb6fff3513a3d0ffaaa11acdb",
-                "poolId": "0x2bfddb460b2050c9e7567eec1f3ac39c1766a404299038080a4ad7ec294b6425"
-            }
-        ]
-    }
+	"bsc": {
+		"solvbtc": "0x4aae823a6a0b376De6A78e74eCC5b079d38cBCf7",
+		"strategies": [{
+				"erc20": "0x6c948A4C31D013515d871930Fe3807276102F25d",
+				"navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+				"poolId": "0x02228958e4f53e94e09cc0afd49939bf93af0b991889fa5fe761672c0e9c3021"
+			},
+			{
+				"erc20": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
+				"navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+				"poolId": "0x0b2bb30466fb1d5b0c664f9a6e4e1a90d5c8bc5abaecd823563641d6fc5ae57a"
+			}
+		]
+	},
+	"ethereum": {
+		"solvbtc": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+		"strategies": [{
+				"erc20": "0x32Bc653dbD08C70f4dDEF2Bab15915193A617D75",
+				"navOracle": "0x8c29858319614380024093dbee553f9337665756",
+				"poolId": "0xa11f08f40185c0ba7ff7f5ea343798a4e2cd0f0d65d47fd5a59ebb51d2d275fa"
+			},
+			{
+				"erc20": "0xE7C253EAD50976Caf7b0C2cbca569146A7741B50",
+				"navOracle": "0x8c29858319614380024093dbee553f9337665756",
+				"poolId": "0xc63f3d6660f19445e108061adf74e0471a51a33dad30fe9b4815140168fd6136"
+			}
+		]
+	},
+	"avax": {
+		"solvbtc": "0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777",
+		"strategies": [{
+			"erc20": "0x6C7d727a0432D03351678F91FAA1126a5B871DF5",
+			"navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+			"poolId": "0x83933f7cabce9efa8ed17c7f601dba81cfa49f0dabaf2885bf1624719bf78443"
+		}]
+	},
+	"bob": {
+		"solvbtc": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+		"strategies": [{
+			"erc20": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
+			"navOracle": "0x1210371f2e26a74827f250afdfdbe3091304a3b7",
+			"poolId": "0xdecbbc2d7327df6a7123775568b05eb192cc30c3156fe875698689d70dbc7d2c"
+		}]
+	},
+	"berachain": {
+		"solvbtc": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+		"strategies": [{
+			"erc20": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
+			"navOracle": "0x45fb21ac62503c0bb6fff3513a3d0ffaaa11acdb",
+			"poolId": "0x2bfddb460b2050c9e7567eec1f3ac39c1766a404299038080a4ad7ec294b6425"
+		}],
+		"routerV2": {
+			"contractAddress": "0x7295de68de27a70dd0d78898967a42b36cedafeb",
+			"fromBlock": 4375297,
+			"currency": "0xCC0966D8418d412c599A6421b760a847eB169A8C",
+			"requester": "0x138CF837b6F7De9073C627732ff90F3346507340"
+		}
+	}
 }
