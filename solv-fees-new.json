@@ -1,0 +1,209 @@
+{
+    "ethereum": {
+      "protocolFees": {
+        "address": [
+          "0xbBf0A02ae7f17d19cB3E3766633e7Ca33aB3b5d5"
+        ],
+        "token": [
+          "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "0x57e114B691Db790C35207b2e685D4A43181e6061",
+          "0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9"
+        ],
+        "deployedAt": 1718236800
+      },
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0x7A56E1C57C7475CCf742a1832B028F0456652F97"
+        ]
+      }
+    },
+    "bsc": {
+      "poolFees": [
+        {
+          "poolId": "0x636021e98becf5978f273aa03a0980a8e887628e0ad7daaec73456f97b4ed903",
+          "name": "SolvBTC-BSC-SolvBTC",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x08fc00105d8daadd85946ab00e1d3e2f20b04008a00fbe6e0fac7c956cd5846f",
+          "name": "SolvBTC.JUP-BSC-SolvBTC",
+          "revenue_ratio": "0.35"
+        },
+        {
+          "poolId": "0x34bba90734634811d28d6c33eaad61f93686793ddf442190573619e9476c8925",
+          "name": "SolvBTC.DLP-BSC-SolvBTC",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x02228958e4f53e94e09cc0afd49939bf93af0b991889fa5fe761672c0e9c3021",
+          "name": "SolvBTC.BNB-BSC-SolvBTC",
+          "revenue_ratio": "0.25"
+        }
+      ],
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0x4aae823a6a0b376De6A78e74eCC5b079d38cBCf7"
+        ]
+      }
+    },
+    "arbitrum": {
+      "poolFees": [
+        {
+          "poolId": "0xe037ef7b5f74bf3c988d8ae8ab06ad34643749ba9d217092297241420d600fce",
+          "name": "GMX V2 USDC - A-Arbitrum-USDC",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x9119ceb6bcf974578e868ab65ae20c0d546716a6657eb27dc3a6bf113f0b519c",
+          "name": "RWA USDT - B-Arbitrum-USDT",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x392c65b44c03fee27826b645ebc00f3cfd114dc7086523523233766ce0cbd4cf",
+          "name": "GMX V2 USDC - B-Arbitrum-USDC",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0xc71ee4ace4d770871f1ead92c5fb5e39ea888e8660a8bd27ed3f9423140e6576",
+          "name": "GMX V2 WETH - B-Arbitrum-WETH",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0xe2d154c8cd3f45e2a22572fad8301b195755cf9af10d579e04e90f719206fad0",
+          "name": "GMX V2 WBTC - B-Arbitrum-WBTC",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x504d291d2f4dedf8fa3ac3a342ff3531b8947fa835077c8312fa18da2be4084c",
+          "name": "GMX V2 USDC - Senior-Arbitrum-USDC",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x3b2232fb5309e89e5ee6e2ca6066bcc28ee365045e9a565040bf8c846b87477e",
+          "name": "GMX V2 WBTC - A-Arbitrum-WBTC",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x0ef01fb59f931e3a3629255b04ce29f6cd428f674944789288a1264a79c7c931",
+          "name": "MUX USDT - A-Arbitrum-USDT",
+          "revenue_ratio": "0.25"
+        }
+      ],
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0x3647c54c4c2C65bC7a2D63c0Da2809B399DBBDC0"
+        ]
+      }
+    },
+    "mantle": {
+      "poolFees": [
+        {
+          "poolId": "0xf514bf1cefa177ea26156b1d0d0da28da8f88b5eb8ed673ddd2cea5334bb6d6c",
+          "name": "RWA USDT - A-Mantle-USDT",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0xc287a2349f1891ec04b7f0b613726b6d4601c7d2750a101c6ca3fc4bddf47653",
+          "name": "USDT Funding Rate Arbitrage-Mantle-USDT",
+          "revenue_ratio": "0.25"
+        },
+        {
+          "poolId": "0x8aeda782c271f9d79110d12410640a393c5ad1fdd6f3812208c0052637eea338",
+          "name": "Mantle WETH - Leveraged Staking-Mantle-WETH",
+          "revenue_ratio": "0.25"
+        }
+      ],
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0xa68d25fC2AF7278db4BcdcAabce31814252642a9"
+        ]
+      }
+    },
+    "core": {
+      "nativeTokenFees": {
+        "address": "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
+      }
+    },
+    "avax": {
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777"
+        ]
+      }
+    },
+    "merlin": {
+      "receivedPureRevenue": {
+        "address": [
+          "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
+        ],
+        "token": [
+          "0x41D9036454BE47d3745A823C4aaCD0e29cFB0f71"
+        ]
+      }
+    },
+    "bob": {
+      "receivedPureRevenue": {
+        "address": [
+          "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
+        ],
+        "token": [
+          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+        ]
+      }
+    },
+    "base": {
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0x3B86Ad95859b6AB773f55f8d94B4b9d443EE931f"
+        ]
+      }
+    },
+    "linea": {
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+        ]
+      }
+    },
+    "rootstock": {
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+        ]
+      }
+    },
+    "soneium": {
+      "receivedPureRevenue": {
+        "address": [
+          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+        ],
+        "token": [
+          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+        ]
+      }
+    }
+  }
