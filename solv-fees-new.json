@@ -1,49 +1,43 @@
 {
-    "ethereum": {
-      "protocolFees": {
-        "address": [
-          "0xbBf0A02ae7f17d19cB3E3766633e7Ca33aB3b5d5"
-        ],
-        "token": [
-          "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
-          "0x57e114B691Db790C35207b2e685D4A43181e6061",
-          "0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9"
-        ],
-        "deployedAt": 1718236800
-      },
-      "receivedPureRevenue": {
-        "address": [
-          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
-        ],
-        "token": [
-          "0x7A56E1C57C7475CCf742a1832B028F0456652F97"
-        ]
-      }
-    },
-    "bsc": {
-      "poolFees": [
-        {
-          "poolId": "0x636021e98becf5978f273aa03a0980a8e887628e0ad7daaec73456f97b4ed903",
-          "name": "SolvBTC-BSC-SolvBTC",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x08fc00105d8daadd85946ab00e1d3e2f20b04008a00fbe6e0fac7c956cd5846f",
-          "name": "SolvBTC.JUP-BSC-SolvBTC",
-          "revenue_ratio": "0.35"
-        },
-        {
-          "poolId": "0x34bba90734634811d28d6c33eaad61f93686793ddf442190573619e9476c8925",
-          "name": "SolvBTC.DLP-BSC-SolvBTC",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x02228958e4f53e94e09cc0afd49939bf93af0b991889fa5fe761672c0e9c3021",
-          "name": "SolvBTC.BNB-BSC-SolvBTC",
-          "revenue_ratio": "0.25"
-        }
+  "ethereum": [{
+    "name": "xSolvBTC-ETH-SolvBTC",
+    "marketAddress": "0x57bB6a8563a8e8478391C79F3F433C6BA077c567",
+    "poolId": "0xefcca1eb946cdc7b56509489a56b45b75aff74b8bb84dad5b893012157e0df93",
+    "contractAddress": "0x982d50f8557d57b748733a3fc3d55aef40c46756",
+    "navOracle": "0x8c29858319614380024093dbee553f9337665756",
+    "openFundShareSlot": "83660682397659272392863020907646506973985956658124321060921311208510599625298",
+    "revenueRatio": "0.2",
+    "receivedFee": {
+      "address": [
+        "0xbBf0A02ae7f17d19cB3E3766633e7Ca33aB3b5d5"
       ],
-      "receivedPureRevenue": {
+      "token": [
+        "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+        "0x57e114B691Db790C35207b2e685D4A43181e6061",
+        "0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9"
+      ],
+      "deployedAt": 1718236800
+    },
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+      ],
+      "token": [
+        "0x7A56E1C57C7475CCf742a1832B028F0456652F97"
+      ]
+    }
+  }],
+  "bsc": [{
+      "name": "xSolvBTC-BSC-SolvBTC",
+      "marketAddress": "0xaE050694c137aD777611286C316E5FDda58242F3",
+      "poolId": "0x6fe7f2753798616f555389f971dae58b32e181fab8b1d60d35e5ddafbb6bb5b7",
+      "contractAddress": "0xb816018e5d421e8b809a4dc01af179d86056ebdf",
+      "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+      "openFundShareSlot": "1336354853777768727075850191656536701909968430898108410559797247549735288643",
+      "revenueRatio": "0.2",
+      "subscriptionFee": false,
+      "redemptionFee": {
         "address": [
           "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
         ],
@@ -52,50 +46,149 @@
         ]
       }
     },
-    "arbitrum": {
-      "poolFees": [
-        {
-          "poolId": "0xe037ef7b5f74bf3c988d8ae8ab06ad34643749ba9d217092297241420d600fce",
-          "name": "GMX V2 USDC - A-Arbitrum-USDC",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x9119ceb6bcf974578e868ab65ae20c0d546716a6657eb27dc3a6bf113f0b519c",
-          "name": "RWA USDT - B-Arbitrum-USDT",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x392c65b44c03fee27826b645ebc00f3cfd114dc7086523523233766ce0cbd4cf",
-          "name": "GMX V2 USDC - B-Arbitrum-USDC",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0xc71ee4ace4d770871f1ead92c5fb5e39ea888e8660a8bd27ed3f9423140e6576",
-          "name": "GMX V2 WETH - B-Arbitrum-WETH",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0xe2d154c8cd3f45e2a22572fad8301b195755cf9af10d579e04e90f719206fad0",
-          "name": "GMX V2 WBTC - B-Arbitrum-WBTC",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x504d291d2f4dedf8fa3ac3a342ff3531b8947fa835077c8312fa18da2be4084c",
-          "name": "GMX V2 USDC - Senior-Arbitrum-USDC",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x3b2232fb5309e89e5ee6e2ca6066bcc28ee365045e9a565040bf8c846b87477e",
-          "name": "GMX V2 WBTC - A-Arbitrum-WBTC",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x0ef01fb59f931e3a3629255b04ce29f6cd428f674944789288a1264a79c7c931",
-          "name": "MUX USDT - A-Arbitrum-USDT",
-          "revenue_ratio": "0.25"
-        }
-      ],
-      "receivedPureRevenue": {
+    {
+      "name": "SolvBTC-BSC-SolvBTC",
+      "marketAddress": "0xaE050694c137aD777611286C316E5FDda58242F3",
+      "poolId": "0x636021e98becf5978f273aa03a0980a8e887628e0ad7daaec73456f97b4ed903",
+      "contractAddress": "0xb816018e5d421e8b809a4dc01af179d86056ebdf",
+      "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+      "openFundShareSlot": "3109324938069069692986200592694587775782820574858408612909119039569997731471",
+      "revenueRatio": "0.25",
+      "subscriptionFee": true,
+      "redemptionFee": false
+    },
+    {
+      "name": "SolvBTC.JUP-BSC-SolvBTC",
+      "marketAddress": "0xaE050694c137aD777611286C316E5FDda58242F3",
+      "poolId": "0x08fc00105d8daadd85946ab00e1d3e2f20b04008a00fbe6e0fac7c956cd5846f",
+      "contractAddress": "0xb816018e5d421e8b809a4dc01af179d86056ebdf",
+      "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+      "openFundShareSlot": "50077876131888568688821786851011140818850052457786813446031800696590695154298",
+      "revenueRatio": "0.35",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "SolvBTC.DLP-BSC-SolvBTC",
+      "marketAddress": "0xaE050694c137aD777611286C316E5FDda58242F3",
+      "poolId": "0x34bba90734634811d28d6c33eaad61f93686793ddf442190573619e9476c8925",
+      "contractAddress": "0xb816018e5d421e8b809a4dc01af179d86056ebdf",
+      "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+      "openFundShareSlot": "82600062431471570172766070594596566732265135054234714404414271568545157248057",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "SolvBTC.BNB-BSC-SolvBTC",
+      "marketAddress": "0xaE050694c137aD777611286C316E5FDda58242F3",
+      "poolId": "0x02228958e4f53e94e09cc0afd49939bf93af0b991889fa5fe761672c0e9c3021",
+      "contractAddress": "0xb816018e5d421e8b809a4dc01af179d86056ebdf",
+      "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+      "openFundShareSlot": "113080263447652273178366593838745440725386365838909671648514975200903402640788",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    }
+  ],
+  "arbitrum": [{
+      "name": "GMX V2 USDC - A-Arbitrum-USDC",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0xe037ef7b5f74bf3c988d8ae8ab06ad34643749ba9d217092297241420d600fce",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "5310353805259224968786693768403624884928279211848504288200646724372830798580",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "RWA USDT - B-Arbitrum-USDT",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0x9119ceb6bcf974578e868ab65ae20c0d546716a6657eb27dc3a6bf113f0b519c",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "10171050319075320644586539334401394801050934983625915448386431993435893492954",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "GMX V2 USDC - B-Arbitrum-USDC",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0x392c65b44c03fee27826b645ebc00f3cfd114dc7086523523233766ce0cbd4cf",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "32632017617207478546475046691496646944368542238531499037653794403708832457936",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "GMX V2 WETH - B-Arbitrum-WETH",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0xc71ee4ace4d770871f1ead92c5fb5e39ea888e8660a8bd27ed3f9423140e6576",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "85588310140314543721105880238735853818871955453308764959170830337250794294829",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "GMX V2 WBTC - B-Arbitrum-WBTC",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0xe2d154c8cd3f45e2a22572fad8301b195755cf9af10d579e04e90f719206fad0",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "18834720600760682316079182603327587109774167238702271733823387280510631407444",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "GMX V2 USDC - Senior-Arbitrum-USDC",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0x504d291d2f4dedf8fa3ac3a342ff3531b8947fa835077c8312fa18da2be4084c",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "90475336609644448573394272833482234840324043364960181744352364553367280007122",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "GMX V2 WBTC - A-Arbitrum-WBTC",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0x3b2232fb5309e89e5ee6e2ca6066bcc28ee365045e9a565040bf8c846b87477e",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "70120449060830493694329237233476283664004495384113064083934107225342856266913",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "MUX USDT - A-Arbitrum-USDT",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0x0ef01fb59f931e3a3629255b04ce29f6cd428f674944789288a1264a79c7c931",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "17873186957027148109033339637575361280044016486300679380351688892728620516739",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "xSolvBTC-Arbitrum-SolvBTC",
+      "marketAddress": "0xc09022C379eE2bee0Da72813C0C84c3Ed8521251",
+      "poolId": "0xa1a41164e490bee159f8629380d0f52d82d852ba58c35528a0cc8779049416e8",
+      "contractAddress": "0x22799daa45209338b7f938edf251bdfd1e6dcb32",
+      "navOracle": "0x6ec1fec6c6af53624733f671b490b8250ff251ed",
+      "openFundShareSlot": "25315353894199778801354907614668596034124918468786689102544470186607665630642",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": {
         "address": [
           "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
         ],
@@ -103,26 +196,51 @@
           "0x3647c54c4c2C65bC7a2D63c0Da2809B399DBBDC0"
         ]
       }
+    }
+  ],
+  "mantle": [{
+      "name": "RWA USDT - A-Mantle-USDT",
+      "marketAddress": "0x1210371F2E26a74827F250afDfdbE3091304a3b7",
+      "poolId": "0xf514bf1cefa177ea26156b1d0d0da28da8f88b5eb8ed673ddd2cea5334bb6d6c",
+      "contractAddress": "0x788dc3af7b62708b752d483a6e30d1cf23c3eaae",
+      "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+      "openFundShareSlot": "77406646563329984090609229456139833989531434162860778120489803664660566620495",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
     },
-    "mantle": {
-      "poolFees": [
-        {
-          "poolId": "0xf514bf1cefa177ea26156b1d0d0da28da8f88b5eb8ed673ddd2cea5334bb6d6c",
-          "name": "RWA USDT - A-Mantle-USDT",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0xc287a2349f1891ec04b7f0b613726b6d4601c7d2750a101c6ca3fc4bddf47653",
-          "name": "USDT Funding Rate Arbitrage-Mantle-USDT",
-          "revenue_ratio": "0.25"
-        },
-        {
-          "poolId": "0x8aeda782c271f9d79110d12410640a393c5ad1fdd6f3812208c0052637eea338",
-          "name": "Mantle WETH - Leveraged Staking-Mantle-WETH",
-          "revenue_ratio": "0.25"
-        }
-      ],
-      "receivedPureRevenue": {
+    {
+      "name": "USDT Funding Rate Arbitrage-Mantle-USDT",
+      "marketAddress": "0x1210371F2E26a74827F250afDfdbE3091304a3b7",
+      "poolId": "0xc287a2349f1891ec04b7f0b613726b6d4601c7d2750a101c6ca3fc4bddf47653",
+      "contractAddress": "0x788dc3af7b62708b752d483a6e30d1cf23c3eaae",
+      "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+      "openFundShareSlot": "48541436984192663650063229695481937992236063285084352719742927842862739825849",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "Mantle WETH - Leveraged Staking-Mantle-WETH",
+      "marketAddress": "0x1210371F2E26a74827F250afDfdbE3091304a3b7",
+      "poolId": "0x8aeda782c271f9d79110d12410640a393c5ad1fdd6f3812208c0052637eea338",
+      "contractAddress": "0x788dc3af7b62708b752d483a6e30d1cf23c3eaae",
+      "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+      "openFundShareSlot": "18816250299426639585218332091507760042208254981014806770435322899450307101042",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": false
+    },
+    {
+      "name": "xSolvBTC-Mantle-SolvBTC",
+      "marketAddress": "0x1210371F2E26a74827F250afDfdbE3091304a3b7",
+      "poolId": "0xbaa315531846ef9d6bddfc9e551c2b90e478a0efcabfef701e62a7268873d5ad",
+      "contractAddress": "0x788dc3af7b62708b752d483a6e30d1cf23c3eaae",
+      "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+      "openFundShareSlot": "12331450637656346719378267501864914478562479812085051740470054359414880794205",
+      "revenueRatio": "0.25",
+      "subscriptionFee": false,
+      "redemptionFee": {
         "address": [
           "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
         ],
@@ -130,80 +248,146 @@
           "0xa68d25fC2AF7278db4BcdcAabce31814252642a9"
         ]
       }
-    },
-    "core": {
-      "nativeTokenFees": {
-        "address": "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
-      }
-    },
-    "avax": {
-      "receivedPureRevenue": {
-        "address": [
-          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
-        ],
-        "token": [
-          "0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777"
-        ]
-      }
-    },
-    "merlin": {
-      "receivedPureRevenue": {
-        "address": [
-          "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
-        ],
-        "token": [
-          "0x41D9036454BE47d3745A823C4aaCD0e29cFB0f71"
-        ]
-      }
-    },
-    "bob": {
-      "receivedPureRevenue": {
-        "address": [
-          "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
-        ],
-        "token": [
-          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
-        ]
-      }
-    },
-    "base": {
-      "receivedPureRevenue": {
-        "address": [
-          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
-        ],
-        "token": [
-          "0x3B86Ad95859b6AB773f55f8d94B4b9d443EE931f"
-        ]
-      }
-    },
-    "linea": {
-      "receivedPureRevenue": {
-        "address": [
-          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
-        ],
-        "token": [
-          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
-        ]
-      }
-    },
-    "rootstock": {
-      "receivedPureRevenue": {
-        "address": [
-          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
-        ],
-        "token": [
-          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
-        ]
-      }
-    },
-    "soneium": {
-      "receivedPureRevenue": {
-        "address": [
-          "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
-        ],
-        "token": [
-          "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
-        ]
-      }
     }
-  }
+  ],
+  "core": [{
+    "name": "SolvBTC-Core-WRBTC",
+    "marketAddress": "0xeC34989BECD59158f3B1A5cdfFDb667fa2e4d957",
+    "poolId": "0xf565aa1c019284a525d3157a65249ab8eae5792d52607b5469304b883afe1298",
+    "contractAddress": "0x6b2e555b6c17bfbba251cc3cde084071f4a7ef38",
+    "navOracle": "0xede83d8f628c298b4ce50287e1c28b6dfb31dcf6",
+    "openFundShareSlot": "55361743739428405949387153615309411651573939533932222603446848168374736418754",
+    "revenueRatio": "0.25",
+    "gasTokens": [
+      "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
+    ],
+    "subscriptionFee": false,
+    "redemptionFee": false
+  }],
+  "avax": [{
+    "name": "xSolvBTC-Avax-SolvBTC",
+    "marketAddress": "0x59Cf3db95bdF5C545877871c3863c9DBe6b0b7cf",
+    "poolId": "0xfe32d4edc14725d9178a3dd19d5f17c94e33945adc6e0091dc67c126bdf30182",
+    "contractAddress": "0x29f870ed75b4632301946bb935433605f39d515e",
+    "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+    "openFundShareSlot": "91416864602533104392592890824497157334485490509693941626320001937970957602493",
+    "revenueRatio": "0.25",
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+      ],
+      "token": [
+        "0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777"
+      ]
+    }
+  }],
+  "merlin": [{
+    "name": "xSolvBTC-Merlin-SolvBTC",
+    "marketAddress": "0x59Cf3db95bdF5C545877871c3863c9DBe6b0b7cf",
+    "poolId": "0x903f661146b7de3d3b1b1e68f22ba295baa8f558a79e7ba1ee91d590b06890ec",
+    "contractAddress": "0x788dc3af7b62708b752d483a6e30d1cf23c3eaae",
+    "navOracle": "0x540a9dbba1ae6250253ba8793714492ee357ac1d",
+    "openFundShareSlot": "23002376000286537971644610945217253049745413385836602646876543302447601012196",
+    "revenueRatio": "0.25",
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
+      ],
+      "token": [
+        "0x41D9036454BE47d3745A823C4aaCD0e29cFB0f71"
+      ]
+    }
+  }],
+  "bob": [{
+    "name": "xSolvBTC-Bob-SolvBTC",
+    "marketAddress": "0xf5a247157656678398B08d3eFa1673358C611A3f",
+    "poolId": "0x6899a7e13b655fa367208cb27c6eaa2410370d1565dc1f5f11853a1e8cbef033",
+    "contractAddress": "0x29f870ed75b4632301946bb935433605f39d515e",
+    "navOracle": "0x1210371f2e26a74827f250afdfdbe3091304a3b7",
+    "openFundShareSlot": "108568168644578414292629788190007224872417361798654086509675235669006585971038",
+    "revenueRatio": "0.25",
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0xA26DDC188B1C07d7F0dcb90827424b14DDa2e372"
+      ],
+      "token": [
+        "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+      ]
+    }
+  }],
+  "base": [{
+    "name": "xSolvBTC-Bob-SolvBTC",
+    "marketAddress": "0xf5a247157656678398B08d3eFa1673358C611A3f",
+    "poolId": "0xb20032ac848893cf4820a7b3259020ffd5057d49f537c2adc5f74a337cc56ddc",
+    "contractAddress": "0x29f870ed75b4632301946bb935433605f39d515e",
+    "navOracle": "0x1210371f2e26a74827f250afdfdbe3091304a3b7",
+    "openFundShareSlot": "21594604619467779384440136342992607739900587760885830736240056183867191526104",
+    "revenueRatio": "0.25",
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+      ],
+      "token": [
+        "0x3B86Ad95859b6AB773f55f8d94B4b9d443EE931f"
+      ]
+    }
+  }],
+  "linea": [{
+    "name": "xSolvBTC-Bob-SolvBTC",
+    "marketAddress": "0xf5a247157656678398B08d3eFa1673358C611A3f",
+    "poolId": "0xca75c7fc33f3a7985b1b154358c46586a93f606b6e0073de973dcfaacdb052af",
+    "contractAddress": "0x29f870ed75b4632301946bb935433605f39d515e",
+    "navOracle": "0x1210371f2e26a74827f250afdfdbe3091304a3b7",
+    "openFundShareSlot": "63950668890804329480931069325915123854394556555578485584971294316396625135919",
+    "revenueRatio": "0.25",
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+      ],
+      "token": [
+        "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+      ]
+    }
+  }],
+  "rootstock": [{
+    "name": "xSolvBTC-Bob-SolvBTC",
+    "marketAddress": "0x6c8dA184B019E6C4Baa710113c0d9DE68A693B1f",
+    "poolId": "0xaa95765bbab39e03ab9984f57669a5ca95fd3091b0f93623cc74d20497eaa338",
+    "contractAddress": "0x29f870ed75b4632301946bb935433605f39d515e",
+    "navOracle": "0x443e5e0434e51db27717db447af2631f0355e7f8",
+    "openFundShareSlot": "62817733643116395134583342160513164074164336605273283322054884601625839828996",
+    "revenueRatio": "0.25",
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+      ],
+      "token": [
+        "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+      ]
+    }
+  }],
+  "soneium": [{
+    "name": "xSolvBTC-Bob-SolvBTC",
+    "marketAddress": "0xB381fD599649322b143978f8a1fCa0cB41a4Ab5a",
+    "poolId": "0xe113124e2542b5cb27e3df96660a271de3d7d4b52ff63d8bc5afaf35337a3d37",
+    "contractAddress": "0x788dc3af7b62708b752d483a6e30d1cf23c3eaae",
+    "navOracle": "0x6c8da184b019e6c4baa710113c0d9de68a693b1f",
+    "openFundShareSlot": "61223509085126765638810124921947600293064955381636991311628229057592425317222",
+    "revenueRatio": "0.25",
+    "subscriptionFee": false,
+    "redemptionFee": {
+      "address": [
+        "0x5ef01B1eFfA34Bdd3A305a968A907108D52FF234"
+      ],
+      "token": [
+        "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+      ]
+    }
+  }]
+}
