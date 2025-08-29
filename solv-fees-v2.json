@@ -149,7 +149,7 @@
       "openFundShareAddress": "0xb816018e5d421e8b809a4dc01af179d86056ebdf",
       "navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
       "openFundShareSlot": "89208590061209537649550317104742331433006176747085251606825693434226550591473",
-      "revenueRatio": "0.30",
+      "revenueRatio": "0.50",
       "subscriptionFee": false,
       "redemptionFee": false
     }, {
