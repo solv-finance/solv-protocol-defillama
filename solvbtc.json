@@ -96,5 +96,23 @@
         "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
       ]
     }
+  },
+  "solana": {
+    "depositTokens": {
+      "tokensAndOwners": [
+        [
+          "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "EZzXKHYjpKgXaZ3vy3zqBzr2TsVHNWbJ3N4daTxNdfUQ"
+        ],
+        [
+          "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "EZzXKHYjpKgXaZ3vy3zqBzr2TsVHNWbJ3N4daTxNdfUQ"
+        ],
+        [
+          "CtzPWv73Sn1dMGVU3ZtLv9yWSyUAanBni19YWDaznnkn",
+          "EZzXKHYjpKgXaZ3vy3zqBzr2TsVHNWbJ3N4daTxNdfUQ"
+        ]
+      ]
+    }
   }
 }
