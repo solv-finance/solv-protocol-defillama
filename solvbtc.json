@@ -101,16 +101,28 @@
     "depositTokens": {
       "tokensAndOwners": [
         [
+          "CBIJBDNZNF4X35BJ4FFZWCDBSCKOP5NB4PLG4SNENRMLAPYG4P5FM6VN",
+          "GCE5RUYBF25JOO4RKRAPIIY5FTR6R533ZPSRBIVID7OPACTV5AHTRODZ"
+        ],
+        [
+          "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "4aW1UQgHYz3VKu6QUyst3SPe1YoaBvPy1DmozVf3WFUS"
+        ],
+        [
+          "CBIJBDNZNF4X35BJ4FFZWCDBSCKOP5NB4PLG4SNENRMLAPYG4P5FM6VN",
+          "CATBHFGH3PJRFEBMSAW2NENYFYSLF4OX3H636G2HITTBAQ2GBXX7X6XK"
+        ],
+        [
           "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
           "EZzXKHYjpKgXaZ3vy3zqBzr2TsVHNWbJ3N4daTxNdfUQ"
         ],
         [
-          "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
-          "EZzXKHYjpKgXaZ3vy3zqBzr2TsVHNWbJ3N4daTxNdfUQ"
+          "CtzPWv73Sn1dMGVU3ZtLv9yWSyUAanBni19YWDaznnkn",
+          "4aW1UQgHYz3VKu6QUyst3SPe1YoaBvPy1DmozVf3WFUS"
         ],
         [
-          "CtzPWv73Sn1dMGVU3ZtLv9yWSyUAanBni19YWDaznnkn",
-          "EZzXKHYjpKgXaZ3vy3zqBzr2TsVHNWbJ3N4daTxNdfUQ"
+          "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "4aW1UQgHYz3VKu6QUyst3SPe1YoaBvPy1DmozVf3WFUS"
         ]
       ]
     }
