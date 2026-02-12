@@ -10,6 +10,16 @@
 				"erc20": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
 				"navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
 				"poolId": "0x0b2bb30466fb1d5b0c664f9a6e4e1a90d5c8bc5abaecd823563641d6fc5ae57a"
+			},
+			{
+				"erc20": "0x0de7336c70a8dad4bdea1b2bca8efb3c955e989d",
+				"navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+				"poolId": "0xc00e76915c5091b4ec0d8aeb9626cffa73f20cfe666d5c7108c41e9a34e91532"
+			},
+			{
+				"erc20": "0xcf6fd5ba51cc279240629370ac7009ea268c22f7",
+				"navOracle": "0x9c491539aec346aafeb0bee9a1e9d9c02ab50889",
+				"poolId": "0x84c98d5afd1404a78bd067985d1c93aea8d5b182ad5be0a7a367fbe747a3de33"
 			}
 		]
 	},
